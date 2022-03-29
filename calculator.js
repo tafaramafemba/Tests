@@ -1,4 +1,4 @@
-module.exports = class calculator {
+class calculator {
 
   add(a, b) {
     return a + b;
@@ -16,3 +16,5 @@ module.exports = class calculator {
     return a / b
   }
 }
+
+module.exports = new calculator();
